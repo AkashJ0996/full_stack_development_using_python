@@ -29,40 +29,36 @@ print()
 
 i=1
 Onum=int(input("Enter the number to print the odd Natural num : "))
-while i<=Onum:
-    if i%2!=0:
-        print(i,end=' ')
-    i+=1
+while i<=2*Onum:
+    print(i,end=' ')
+    i+=2
 print()
 
 #5. Write a python script to print first N odd natural numbers in reverse order
 
-i=1
 Rev_Onum=int(input("Enter the number to print the odd Natural num in reverse order: "))
-while i<Rev_Onum:
-    if i%2!=0:
-        print(Rev_Onum-i,end=' ')
-    i+=1
+i=2*Rev_Onum-1
+while i>=1:
+    print(i,end=' ')
+    i-=2
 print()
 
 #6. Write a python script to print first N even natural numbers
 
-i=1
 e_1=int(input("Enter the number to print the even Natural num : "))
-while i<e_1:
-    if i%2==0:
-        print(i,end=' ')
-    i+=1
+i=2
+while i<=2*e_1:
+    print(i,end=' ')
+    i+=2
 print()
 
 #7. Write a python script to print first N even natural numbers in reverse order
 
-i=1
 Re_1=int(input("Enter the number to print the even Natural num in reverse order : "))
-while i<Re_1:
-    if i%2==1:
-        print(Re_1-i,end=' ')
-    i+=1
+i=2*Re_1
+while i>=2:
+    print(i,end=' ')
+    i-=2
 print()
 
 #8. Write a python script to print squares of first N natural numbers
